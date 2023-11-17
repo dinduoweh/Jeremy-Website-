@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: white;
+}
+
+header {
+    position: relative;
+    top: 60px;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 45px;
+    margin-left: 30px;
+    margin-right: 100px;
+    display: grid;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+    height: 100%;
+}
+
+.header-right p {
+    margin: 16px 0 35px;
+    align-content: end;
+}
+
+.header-right a {
+    color: black;
+}
+
+.header-right h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-me-form {
+    padding: 2rem 4rem;
+}
+
+.contact-me-form {
+    display: flex;
+    flex-direction: colummn;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+input:not([type="checkbox"]) {
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    font-weight: 500;
+    color: purple;
+}
+
+button {
+    background-color: blue;
+}
+
+article {
+    position: relative;
+    top: 60px;
+}
+
+
+.links  a{
+    text-decoration: underline;
+    
+   
+}

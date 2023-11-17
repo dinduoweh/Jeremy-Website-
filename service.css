@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f1f1f1;
+    overflow: hidden;
+
+}
+
+
+h5{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #ff3366;
+    letter-spacing: 1.5px;
+}
+
+h1{
+    font-size: 60px;
+       color: #3c3e41;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+
+p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: dimgrey;
+    /* margin-left: 100px;
+    margin-top: 20px; */
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px; 
+    
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: linear-gradient(145deg , #e6e6e6, #ffffff);
+    box-shadow: 8px 8px 16px #d1d1d1,
+                -8px -8px 16px #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.box:hover{
+    background: linear-gradient(145deg, #bb0738, #ff3366);
+    box-shadow: 8px 8px 16px #d1d1d1,
+                -8px -8px 16px #ffffff;
+}
+
+
+
+
+.icons{
+    font-size: 50px;
+    color: #ff3366;
+    margin-top: 10px;
+}
+
+
+
+.box:hover .icons{
+    margin-top: 0px;
+    color: #fff;
+}
+
+
+
+.box h2{
+    font-weight: 500;
+    margin-top: 25px ;
+}
+
+
+.box:hover h2{
+    color: #fff;
+}
+
+
+
+.box p{
+    color:grey;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+
+
+
+.box:hover p{
+    color: #fff;
+}
+
+
+
+.arrow {
+    font-size: 30px;
+    color: #ff3366;
+    margin-top: 40px;
+    display: none ;
+}
+
+
+  .box:hover .arrow{
+    color: #fff;
+    margin: top 30px;
+    display: block;
+  }

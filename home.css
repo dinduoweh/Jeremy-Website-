@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: monospace;
+    line-height: 1.7;
+    color: white;
+    background: darkcyan;
+}
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    background: rebeccapurple;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+}
+
+.nav-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+   
+}
+
+.nav-menu a {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.nav-menu a:hover {
+    color: black;
+}
+
+nav h1 {
+    color: white;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.header-container {
+    margin-top: 3rem;
+    position: relative;
+}
+
+
+
+
+/* to expand smallerimage header section */
+
+
+
+.header-content {
+    text-align: center;
+    margin-top: 2rem;
+    width: 40rem;
+    margin-inline: auto;
+}
+
+.header-content h3 p {
+    margin-bottom: 0.7rem;
+}
+
+article a{
+    text-decoration: underline;
+    
+}
+
+.links h2{
+    color: black;
+}
+
+.links a{
+    color: white;
+}
+
+ .social-icon{
+   font-size: 30px;
+   justify-content: space-between;
+  
+   
+   
+}
+
